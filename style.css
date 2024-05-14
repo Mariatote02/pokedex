@@ -1,0 +1,113 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+.cont{
+    width: 80%;
+    height: 500px;
+    display: flex;
+    margin: 40px auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./pokemon.webp);
+    background-position: center center;
+    background-size: cover;
+}
+.pantalla{
+    width: 80%;
+    height: 500px;
+    position: absolute;
+    background: #000000a8; 
+}
+.cont-logo{
+    position: relative;
+    top: -95px;
+    width: 65%;
+    margin-bottom: 20px;
+}
+.ver{
+    width: max-content;
+    padding: 10px 15px;
+    color: #ffcc01;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    background: #326bb3;
+    position: relative;
+    top: -6vw;
+    border-radius: 10px;
+}
+.busqueda{
+    display: none;
+}
+.open{
+    width: 100%;
+    margin: 30px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cont-log{
+    width: 40%;
+    margin: 20px auto;
+}
+.contnt{
+    width: 50%;
+    margin: 15px auto 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+/* fichas de pokedex */
+.Content{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+.Content-ficha{
+    width: 30%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Content-ficha-pokedex{
+    width: 100%;
+}
+.Content-ficha-img{
+    width: 180px;
+    position: absolute;
+    top: 25%;
+}
+.Content-ficha-name{
+    position: absolute;
+    top: 51%;
+    width: max-content;
+    padding: 5px 15px;
+    margin: 0 auto;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+.Content-ficha-mas{
+    position: absolute;
+    bottom: 10%;
+    left: 32%;
+    width: max-content;
+    padding: 5px 15px;
+    margin: 0 auto;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    cursor: pointer;
+}

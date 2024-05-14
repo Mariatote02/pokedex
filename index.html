@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="./style.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="cont">
+        <div class="pantalla"></div>
+        <img class="cont-logo" src="./pokemon.png" alt="logo">
+        <button id="pokemones" class="ver">VER POKEMONES!!</button>
+    </div>
+    <div class="busqueda">
+      <img class="cont-log" src="./pokemon.png" alt="logo">
+      <div class="contnt">
+        <input id="pokemon_name_input" />
+        <button id="buscar_btn" onclick="findPokemon()">Buscar</button>
+      </div>
+        
+    </div>
+    <div class="Content" id="pokemon_container"></div>
+    <script src="poke.js"></script>
+  </body>
+</html>
